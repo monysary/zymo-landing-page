@@ -1,4 +1,4 @@
-# [Zymo Research Landing Page](https://www.zymoresearch.com)
+# [Zymo Research Landing Page](https://monysary.github.io/zymo-landing-page/)
 
 ![landing page header](./assets/images/header-landing-page.jpg "Landing Page Header")
 
@@ -8,7 +8,7 @@ Visit the webpage and check out all it has to offer!
 
 ## Links:
 
-+ [Website Link](https://www.zymoresearch.com)
++ [Website Link](https://monysary.github.io/zymo-landing-page/)
 
 
 ## Repository
