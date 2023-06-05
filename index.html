@@ -10,24 +10,24 @@
 </head>
 <body>
     <header>
-        <img id="banner" src="./assets/images/banner.jpg">
+        <img id="banner" src="./assets/images/banner.jpg" alt="zymo banner">
         <h1 class="animate-appear-left opacity-0">Header Text</h1>
         <h2 class="sub-heading animate-appear-left opacity-0">Lorem ipsum</h2>
         <div class="hero">
             <div class="animate-appear-top delay-1 opacity-0">
-                <img class="icons" src="./assets/images/checkmark_icon.jpg">
+                <img class="icons" src="./assets/images/checkmark_icon.jpg" alt="checkmark icon">
                 <label class="icon-text">Lorem ipsum</label>
             </div>
             <div class="animate-appear-top delay-2 opacity-0">
-                <img class="icons" src="./assets/images/graphs_icon.jpg">
+                <img class="icons" src="./assets/images/graphs_icon.jpg" alt="graphs icon">
                 <label class="icon-text">Lorem ipsum</label>
             </div>
             <div class="animate-appear-top delay-3 opacity-0">
-                <img class="icons" src="./assets/images/bullseye_icon.jpg">
+                <img class="icons" src="./assets/images/bullseye_icon.jpg" alt="bullseye icon">
                 <label class="icon-text">Lorem ipsum</label>
             </div>
         </div>
-        <a href="#contact-form" class="button-primary">Inquire Now</a>
+        <a href="#contact-form" class="button-primary" aria-label="inquire now button">Inquire Now</a>
     </header>
     
     <main>
@@ -54,33 +54,33 @@
 
     <footer>
         <h3 id="contact-form">Form</h3>
-        <form>
+        <form aria-label="contact form">
             <div class="flex-2input">
                 <div class="form-input">
                     <label>First Name</label>
-                    <input>
+                    <input aria-label="input first name">
                 </div>
                 <div class="form-input">
                     <label>Last Name</label>
-                    <input>
+                    <input aria-label="input last name">
                 </div>
             </div>
             <div class="flex-2input">
                 <div class="form-input">
                     <label>Company</label>
-                    <input>
+                    <input aria-label="input company">
                 </div>
                 <div class="form-input">
                     <label>Role</label>
-                    <input>
+                    <input aria-label="input role">
                 </div>
             </div>
             <div class="form-input">
                 <label>Additional Comments</label>
-                <textarea></textarea>
+                <textarea aria-label="input additional comments"></textarea>
             </div>
             <div class="form-btn">
-                <button type="submit" id="submit-btn" class="button-primary">Submit</button>
+                <button type="submit" id="submit-btn" class="button-primary" aria-label="submit contact form button">Submit</button>
             </div>
         </form>
     </footer>

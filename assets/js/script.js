@@ -38,6 +38,7 @@ mainParagraph.forEach((element) => {
     paragraphObserver.observe(element)
 })
 
+// Handle Submit button
 submitBtn.addEventListener('click', (event) => {
     event.preventDefault()
     console.log(event);
