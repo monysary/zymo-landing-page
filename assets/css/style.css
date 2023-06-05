@@ -168,3 +168,51 @@ form {
         margin-bottom: 0.5rem;
     }
 }
+
+.animate-appear-left {
+    position: relative;
+    opacity: 0;
+    animation: leftRightAppear 1s;
+    animation-fill-mode: forwards;
+}
+
+.animate-appear-top {
+    position: relative;
+    opacity: 0;
+    animation: topDownAppear 1s;
+    animation-fill-mode: forwards;
+}
+
+.delay-1 {
+    animation-delay: 500ms;
+}
+
+.delay-2 {
+    animation-delay: 1000ms;
+}
+
+.delay-3 {
+    animation-delay: 1500ms;
+}
+
+@keyframes leftRightAppear {
+    0% {
+        left: -40px;
+    }
+
+    100% {
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes topDownAppear {
+    0% {
+        top: -40px;
+    }
+
+    100% {
+        top: 0px;
+        opacity: 1;
+    }
+}
