@@ -28,7 +28,7 @@ const paragraphObserver = new IntersectionObserver((entries) => {
         }
     });
 }, {
-    threshold: 1
+    threshold: 0.5
 })
 
 // Calling IntersectionObserver
