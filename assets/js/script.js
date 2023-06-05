@@ -38,3 +38,11 @@ mainParagraph.forEach((element) => {
     paragraphObserver.observe(element)
 })
 
+submitBtn.addEventListener('click', (event) => {
+    event.preventDefault()
+    console.log(event);
+
+    submitBtn.innerHTML = 'Submitted!'
+    submitBtn.classList.replace('button-primary', 'button-submitted')
+    submitBtn.disabled = true
+})
