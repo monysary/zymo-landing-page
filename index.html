@@ -54,30 +54,30 @@
 
     <footer>
         <h3 id="contact-form">Form</h3>
-        <form aria-label="contact form">
+        <form id="form-submit" aria-label="contact form">
             <div class="flex-2input">
                 <div class="form-input">
                     <label>First Name</label>
-                    <input aria-label="input first name">
+                    <input id="input-first" required aria-label="input first name">
                 </div>
                 <div class="form-input">
                     <label>Last Name</label>
-                    <input aria-label="input last name">
+                    <input id="input-last" required aria-label="input last name">
                 </div>
             </div>
             <div class="flex-2input">
                 <div class="form-input">
                     <label>Company</label>
-                    <input aria-label="input company">
+                    <input id="input-company" required aria-label="input company">
                 </div>
                 <div class="form-input">
                     <label>Role</label>
-                    <input aria-label="input role">
+                    <input id="input-role" required aria-label="input role">
                 </div>
             </div>
             <div class="form-input">
                 <label>Additional Comments</label>
-                <textarea aria-label="input additional comments"></textarea>
+                <textarea id="input-comment" required aria-label="input additional comments"></textarea>
             </div>
             <div class="form-btn">
                 <button type="submit" id="submit-btn" class="button-primary" aria-label="submit contact form button">Submit</button>

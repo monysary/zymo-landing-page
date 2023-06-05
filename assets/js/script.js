@@ -1,5 +1,6 @@
 const mainHeader = document.querySelectorAll('.animate-main-header')
 const mainParagraph = document.querySelectorAll('.animate-main-paragraph')
+const formSubmit = document.querySelector('#form-submit')
 const submitBtn = document.querySelector('#submit-btn')
 
 // Function to animate element to appear from left when arrive on screen
@@ -39,11 +40,17 @@ mainParagraph.forEach((element) => {
 })
 
 // Handle Submit button
-submitBtn.addEventListener('click', (event) => {
-    event.preventDefault()
-    console.log(event);
+formSubmit.addEventListener('submit', (event) => {
+    event.preventDefault();
+    console.log('Form submitted!');
 
     submitBtn.innerHTML = 'Submitted!'
     submitBtn.classList.replace('button-primary', 'button-submitted')
     submitBtn.disabled = true
+
+    document.getElementById('input-first').value = ''
+    document.getElementById('input-last').value = ''
+    document.getElementById('input-company').value = ''
+    document.getElementById('input-role').value = ''
+    document.getElementById('input-comment').value = ''
 })
