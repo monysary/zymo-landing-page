@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +13,7 @@ html {
 body {
   min-height: 100%;
   line-height: 1;
-  font-family: sans-serif;
+  font-family: 'Geologica', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
