@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #00843D
+    --primary-color: #00843D;
 }
 
 #banner {
@@ -25,12 +25,14 @@ h1 {
 .hero {
     margin: 100px 0px 60px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 10rem;
 }
 
 label {
     display: block;
+    white-space: nowrap;
 }
 
 .icons {
@@ -120,4 +122,15 @@ form {
 .form-btn {
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    .hero {
+        gap: 5rem;
+        margin: 60px 0;
+    }
+
+    .icons {
+        width: 100px;
+    }
 }
