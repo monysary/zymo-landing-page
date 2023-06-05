@@ -29,6 +29,10 @@ h1 {
     gap: 10rem;
 }
 
+.hero > div > label {
+    display: block;
+}
+
 .icons {
     width: 150px;
 }
